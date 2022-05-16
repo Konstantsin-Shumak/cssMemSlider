@@ -10,29 +10,33 @@
 </head>
 
 <body>
-    <div class="slider-container">
-        <div class="slider">
-            <div class="slides">
-                <div id="slides__1" class="slide">
-                    <span class="slide__text">1</span>
-                </div>
-                <div id="slides__2" class="slide">
-                    <span class="slide__text">2</span>
-                </div>
-                <div id="slides__3" class="slide">
-                    <span class="slide__text">3</span>
-                </div>
-                <div id="slides__4" class="slide">
-                    <span class="slide__text">4</span>
-                </div>
+    <div class="container">
+        <section>
+
+            <input id="radio1" type="radio" name="radio-img" checked>
+            <label for="radio1"><span></span></label>
+            <input id="radio2" type="radio" name="radio-img">
+            <label for="radio2"><span></span></label>
+            <input id="radio3" type="radio" name="radio-img">
+            <label for="radio3"><span></span></label>
+            <input id="radio4" type="radio" name="radio-img">
+            <label for="radio4"><span></span></label>
+
+            <div class="slider">
+                <div id="slide__1"></div>
+                <div id="slide__2"></div>
+                <div id="slide__3"></div>
+                <div id="slide__4"></div>
             </div>
-            <div class="slider__nav">
-                <a class="slider__navlink" href="#slides__1"></a>
-                <a class="slider__navlink" href="#slides__2"></a>
-                <a class="slider__navlink" href="#slides__3"></a>
-                <a class="slider__navlink" href="#slides__4"></a>
+
+            <div class="text--container">
+                <p id="text1">Основано на реальных событиях.</p>
+                <p id="text2">Не баг, а фича.</p>
+                <p id="text3">Пара-па-па-пам, что я люблю.</p>
+                <p id="text4">Я просто, промолчу.</p>
             </div>
-        </div>
+
+        </section>
     </div>
 
 </body>
