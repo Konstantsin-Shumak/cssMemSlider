@@ -21,7 +21,7 @@ section {
     grid-template-rows: 8fr 1fr;
     grid-template-columns: 15fr repeat(4, 1fr);
     grid-auto-flow: column;
-    gap: 5px;
+    gap: 0.3rem;
     background: #0d3f7c;
     color: #fafafa;
 }
@@ -71,19 +71,19 @@ span {
     margin-top: 25%;
     background: #04bbec;
     border-radius: 50%;
-    border: 3px solid #04bbec;
+    border: 0.2rem solid #04bbec;
     transition-property: background, border;
     transition-duration: 0.2s;
 }
 
 label:hover span {
     background: #a9e4fc !important;
-    border: 3px solid #a9e4fc;
+    border: 0.2rem solid #a9e4fc;
 }
 
 label:active span {
     background: #5586c2 !important;
-    border: 3px solid #5586c2;
+    border: 0.2rem solid #5586c2;
 }
 
 #radio1:checked ~ label[for="radio1"] span,
@@ -92,7 +92,7 @@ label:active span {
 #radio4:checked ~ label[for="radio4"] span,
 #radio5:checked ~ label[for="radio5"] span {
     background: #0d3f7c;
-    border: 3px solid #04bbec !important;
+    border: 0.2rem solid #04bbec !important;
 }
 
 .text--container {
@@ -223,6 +223,6 @@ label[for="radio5"] {
 
 @media all and (max-width: 450px) {
     * {
-        font-size: 13px;
+        font-size: 0.7rem;
     }
 }
